@@ -1,5 +1,6 @@
 ## Starter for NodeJS projects
 From https://prismic.io/quickstart#step1
+CMS Interface: https://PrismicStarter.prismic.io
 
 [![Status](https://img.shields.io/travis/prismicio/nodejs-sdk/master.svg)](https://travis-ci.org/prismicio/nodejs-sdk)
 [![Dependency Status](https://david-dm.org/prismicio/nodejs-sdk.svg)](https://david-dm.org/prismicio/nodejs-sdk)
@@ -28,7 +29,7 @@ Edit the `prismic-configuration.js` file to get the application connected to the
 ```
 exports.Configuration = {
 
-  apiEndpoint: 'https://your-repo-name.prismic.io/api',
+  apiEndpoint: 'https://PrismicStarter/api',
 
   // -- Access token if the Master is not open
   // accessToken: 'xxxxxx',
