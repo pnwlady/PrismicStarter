@@ -1,4 +1,5 @@
 ## Starter for NodeJS projects
+From https://prismic.io/quickstart#step1
 
 [![Status](https://img.shields.io/travis/prismicio/nodejs-sdk/master.svg)](https://travis-ci.org/prismicio/nodejs-sdk)
 [![Dependency Status](https://david-dm.org/prismicio/nodejs-sdk.svg)](https://david-dm.org/prismicio/nodejs-sdk)
