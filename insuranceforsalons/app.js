@@ -32,12 +32,9 @@ app.use((req, res, next) => {
 });
 
 /*
- *  --[ INSERT YOUR ROUTES HERE ]--
+ *  -- Route to landing page --
  */
 
-/*
- * Route with documentation to build your project with prismic
- */
 app.route('/').get((req, res) => {
   req.prismic.api.getByUID('page', 'quickstart').then((document) => {
     res.render('index', { document });
