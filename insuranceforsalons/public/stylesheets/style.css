@@ -38,17 +38,15 @@ h1 {
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-  text-align: center;
   /* width: 35.625rem; */
   margin: auto;
   font-size: 1.25rem;
 }
-
-.welcome .beauty {
-  justify-content: center;
-  margin-bottom: 2rem;
+.welcome .text {
+  text-align: center;
 }
-.welcome .details {
+
+.welcome .img {
   justify-content: center;
   margin-bottom: 2rem;
 }

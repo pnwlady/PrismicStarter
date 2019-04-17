@@ -5,6 +5,6 @@ block body
     div.text
       != PrismicDOM.RichText.asHtml(document.data.title, ctx.linkResolver)
       != PrismicDOM.RichText.asHtml(document.data.description, ctx.linkResolver)
-    //- != PrismicDOM.RichText.asHtml(document.data.button, ctx.linkResolver)
+      != PrismicDOM.Link.url(document.data.button_link, ctx.linkResolver)
     img(src=document.data.image.url, class='img')
     img(src=document.data.details.url, class='img')

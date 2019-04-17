@@ -20,6 +20,7 @@ app.use((req, res, next) => {
   };
   // add PrismicDOM in locals to access them in templates.
   res.locals.PrismicDOM = PrismicDOM;
+  res.locals.Link = PrismicDOM.Link;
   Prismic.api(PrismicConfig.apiEndpoint, {
     accessToken: PrismicConfig.accessToken,
     req,
