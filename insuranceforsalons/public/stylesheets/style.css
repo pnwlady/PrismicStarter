@@ -48,6 +48,10 @@ h1 {
   width: 14.875rem;
   margin-bottom: 2rem;
 }
+.welcome .beauty {
+  width: 30rem;
+  margin-bottom: 2rem;
+}
 
 .welcome p,
 .welcome a {
