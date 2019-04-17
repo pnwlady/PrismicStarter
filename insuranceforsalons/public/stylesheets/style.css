@@ -39,17 +39,17 @@ h1 {
   left: 50%;
   transform: translate(-50%, -50%);
   text-align: center;
-  width: 35.625rem;
+  /* width: 35.625rem; */
   margin: auto;
   font-size: 1.25rem;
 }
 
-.welcome .star {
-  width: 14.875rem;
+.welcome .beauty {
+  justify-content: center;
   margin-bottom: 2rem;
 }
-.welcome .beauty {
-  width: 30rem;
+.welcome .details {
+  justify-content: center;
   margin-bottom: 2rem;
 }
 
